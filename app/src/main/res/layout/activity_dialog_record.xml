@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="#26202E">
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="4">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="@string/score"
+               android:gravity="center|bottom"
+               android:textSize="52sp"
+               android:textStyle="bold"
+               android:textColor="#EADDDD"/>
+
+
+       </FrameLayout>
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1.5">
+
+           <TextView
+               android:id="@+id/setScore"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:gravity="center"
+               tools:text="5/10"
+               android:textSize="42sp"
+               android:textStyle="bold"
+               android:textColor="#EADDDD"/>
+       </FrameLayout>
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="4.5">
+
+           <androidx.appcompat.widget.AppCompatButton
+               android:id="@+id/backBtnOfRecord"
+               android:layout_width="160dp"
+               android:layout_height="40dp"
+               android:gravity="center"
+               android:layout_gravity="center"
+               android:text="@string/backToHome"
+               android:textColor="#EADDDD"
+               android:background="@drawable/shape_backrecord"/>
+
+       </FrameLayout>
+   </androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>
