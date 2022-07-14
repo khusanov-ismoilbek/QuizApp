@@ -1,12 +1,9 @@
-package uz.gita.quizapp;
+package uz.gita.quizappOracle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.daimajia.androidanimations.library.Techniques;
-import com.daimajia.androidanimations.library.YoYo;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -41,9 +38,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        findViewById(R.id.exitBtn).setOnClickListener(view -> {
-            finish();
-        });
+        findViewById(R.id.exitBtn).setOnClickListener(view -> finish());
 
     }
 }

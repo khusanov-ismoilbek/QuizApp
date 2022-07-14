@@ -1,4 +1,4 @@
-package uz.gita.quizapp;
+package uz.gita.quizappOracle;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,9 +6,6 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
-
-import com.daimajia.androidanimations.library.Techniques;
-import com.daimajia.androidanimations.library.YoYo;
 
 public class OCAActivity extends AppCompatActivity {
     private String selectedTopicName;

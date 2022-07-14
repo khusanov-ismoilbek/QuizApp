@@ -1,4 +1,4 @@
-package uz.gita.quizapp;
+package uz.gita.quizappOracle;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
@@ -20,9 +20,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import uz.gita.quizapp.controller.GetListOfQuestion1;
-import uz.gita.quizapp.controller.GetListOfQuestion3;
-import uz.gita.quizapp.model.ModelApp;
+import uz.gita.quizappOracle.controller.GetListOfQuestion3;
+import uz.gita.quizappOracle.model.ModelApp;
 
 public class OCAOCPAActivity extends AppCompatActivity{
 

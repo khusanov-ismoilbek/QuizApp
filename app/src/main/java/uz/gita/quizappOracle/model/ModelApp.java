@@ -1,4 +1,4 @@
-package uz.gita.quizapp.model;
+package uz.gita.quizappOracle.model;
 
 public class ModelApp {
     private String question;

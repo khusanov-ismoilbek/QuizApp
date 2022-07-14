@@ -1,4 +1,4 @@
-package uz.gita.quizapp.controller;
+package uz.gita.quizappOracle.controller;
 
 import android.content.res.Resources;
 
@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import uz.gita.quizapp.R;
-import uz.gita.quizapp.model.ModelApp;
+import uz.gita.quizappOracle.R;
+import uz.gita.quizappOracle.model.ModelApp;
 
 public class GetListOfQuestion3 {
     private static GetListOfQuestion3 getListOfQuestion3;
@@ -23,17 +23,17 @@ public class GetListOfQuestion3 {
         return getListOfQuestion3;
     }
 
-    private List<ModelApp> OCAOCP = new ArrayList<>();
+    private final List<ModelApp> OCAOCP = new ArrayList<>();
     private List<ModelApp> loadDataForOCAOCP(Resources resources){
-        String questionForOCAOCP[] = resources.getStringArray(R.array.OCAOCP);
-        String correctAnswersForOCAOCP[] = resources.getStringArray(R.array.correctAnswersForOCAOCP);
-        String keyAForOCAOCP[] = resources.getStringArray(R.array.keysAForOCAOCP);
-        String keyBForOCAOCP[] = resources.getStringArray(R.array.keysBForOCAOCP);
-        String keyCForOCAOCP[] = resources.getStringArray(R.array.keysCForOCAOCP);
-        String keyDForOCAOCP[] = resources.getStringArray(R.array.keysDForOCAOCP);
-        String keyEForOCAOCP[] = resources.getStringArray(R.array.keysEForOCAOCP);
-        String keyFForOCAOCP[] = resources.getStringArray(R.array.keysFForOCAOCP);
-        String answerDefinitionOCAOCP[] = resources.getStringArray(R.array.AnswerDefinitionForOCAOCP);
+        String[] questionForOCAOCP = resources.getStringArray(R.array.OCAOCP);
+        String[] correctAnswersForOCAOCP = resources.getStringArray(R.array.correctAnswersForOCAOCP);
+        String[] keyAForOCAOCP = resources.getStringArray(R.array.keysAForOCAOCP);
+        String[] keyBForOCAOCP = resources.getStringArray(R.array.keysBForOCAOCP);
+        String[] keyCForOCAOCP = resources.getStringArray(R.array.keysCForOCAOCP);
+        String[] keyDForOCAOCP = resources.getStringArray(R.array.keysDForOCAOCP);
+        String[] keyEForOCAOCP = resources.getStringArray(R.array.keysEForOCAOCP);
+        String[] keyFForOCAOCP = resources.getStringArray(R.array.keysFForOCAOCP);
+        String[] answerDefinitionOCAOCP = resources.getStringArray(R.array.AnswerDefinitionForOCAOCP);
 
         for (int i = 0; i < questionForOCAOCP.length; i++) {
             ModelApp modelApp =  new ModelApp(questionForOCAOCP[i], correctAnswersForOCAOCP[i], keyAForOCAOCP[i], keyBForOCAOCP[i], keyCForOCAOCP[i], keyDForOCAOCP[i], keyEForOCAOCP[i], keyFForOCAOCP[i], answerDefinitionOCAOCP[i]);
@@ -48,10 +48,7 @@ public class GetListOfQuestion3 {
     }
 
     public List<ModelApp> getQuestions(String selectedTopicName){
-        switch (selectedTopicName){
-            default:
-                return OCAOCP;
-        }
+        return OCAOCP;
     }
 
 

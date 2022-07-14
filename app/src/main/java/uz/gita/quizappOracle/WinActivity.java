@@ -1,13 +1,10 @@
-package uz.gita.quizapp;
+package uz.gita.quizappOracle;
 
 import android.os.Bundle;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.daimajia.androidanimations.library.Techniques;
-import com.daimajia.androidanimations.library.YoYo;
 
 public class WinActivity extends AppCompatActivity {
     @Override

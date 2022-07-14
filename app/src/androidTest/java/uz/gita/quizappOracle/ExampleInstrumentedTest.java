@@ -1,4 +1,4 @@
-package uz.gita.quizapp;
+package uz.gita.quizappOracle;
 
 import android.content.Context;
 

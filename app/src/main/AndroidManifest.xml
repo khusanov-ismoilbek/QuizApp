@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="uz.gita.quizapp">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="uz.gita.quizappOracle">
 
     <application
         android:allowBackup="true"
@@ -10,44 +11,43 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
         <activity
-            android:name=".TestActivity"
-            android:screenOrientation="portrait"
-            android:exported="true"/>
+            android:name="uz.gita.quizappOracle.TestActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".OCAOCPAActivity"
-            android:screenOrientation="portrait"
-            android:exported="true"/>
+            android:name="uz.gita.quizappOracle.OCAOCPAActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".TestOSPActivity"
-            android:screenOrientation="portrait"
-            android:exported="true"/>
+            android:name="uz.gita.quizappOracle.TestOSPActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".OCPActivity"
-            android:screenOrientation="portrait"
-            android:exported="true"/>
+            android:name="uz.gita.quizappOracle.OCPActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
 
 
         <activity
-            android:name=".StudyTipsActivity"
-            android:screenOrientation="portrait"
-            android:exported="true"/>
-
+            android:name="uz.gita.quizappOracle.StudyTipsActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
 
 
         <activity
-            android:name=".WinActivity"
-            android:screenOrientation="portrait"
-            android:exported="true"/>
+            android:name="uz.gita.quizappOracle.WinActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
 
         <activity
-            android:name=".OCAActivity"
-            android:screenOrientation="portrait"
-            android:exported="true"/>
+            android:name="uz.gita.quizappOracle.OCAActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
 
         <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait"
-            android:exported="true">
+            android:name="uz.gita.quizappOracle.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

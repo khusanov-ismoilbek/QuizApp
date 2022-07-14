@@ -1,4 +1,4 @@
-package uz.gita.quizapp;
+package uz.gita.quizappOracle;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -21,8 +21,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import uz.gita.quizapp.controller.GetListOfQuestion1;
-import uz.gita.quizapp.model.ModelApp;
+import uz.gita.quizappOracle.controller.GetListOfQuestion1;
+import uz.gita.quizappOracle.model.ModelApp;
 
 public class TestActivity extends AppCompatActivity {
     private List<ModelApp> getQuestionsAndKeysAndAnswers;
